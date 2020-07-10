@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #C0C0C0;
+  border-radius: 0;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+.navbar-brand {
+	margin: 10px 15px 10px 0; 
+}
+.navbar-brand h1 {
+  font-family: Comic Sans MS;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: .75; 
+} 
+
+/* END HEADER */
+
+/*MAIN CONTENT*/
+#menu-tile {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  background-color: #C0C0C0;
+}
+
+h2{
+  font-weight: bold;
+}
+
+h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+p{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+}
+/*END MAIN CONTENT*/
+
+/********** Mobile View only **********/
+
+@media (max-width: 767px){
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid;
+}
+  
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#list{
+  border-bottom: 1px solid;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+     border: 1px solid;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+section{
+     padding-top: 0;
+     padding-bottom: 0;
+     margin-top: 0;
+     margin-bottom: 0;
+     background: white;
+   }
+   
+}
